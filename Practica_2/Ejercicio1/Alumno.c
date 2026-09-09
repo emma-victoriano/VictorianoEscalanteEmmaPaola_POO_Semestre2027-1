@@ -1,16 +1,13 @@
 public class Alumno {
-    /**
-     * Atributos
-     * */
+    //Atributos
     int edad;
     float promedio;
-    String nombre, semestre, sexo; //Se agrega otra variable que guardara el sexo
+    String nombre, semestre, sexo; 
 
-    /**
-     * Constructores
-     * */
+    //Se crea el constructor vacio
     public Alumno(){}
 
+    //Creamos el constructor con los datos que se insertaran del alumno, para poder crear objetos con datos ya llenos
     public Alumno(int edad, float promedio, String nombre, String semestre, String sexo){
         this.edad = edad;
         this.promedio = promedio;
@@ -19,10 +16,7 @@ public class Alumno {
         this.sexo = sexo;
     }
 
-    /**
-     * Setters
-     * */
-
+    //Setters para poder actualizar los datos de los alumnos
     public void setEdad(int edad){
         this.edad = edad;
     }
@@ -43,10 +37,7 @@ public class Alumno {
         this.sexo = sexo;
     }
 
-    /**
-     * Getters
-     * */
-
+    //Getters para poder obtener los datos de los alumnos
     public int getEdad(){
         return edad;
     }
