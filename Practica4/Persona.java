@@ -1,10 +1,7 @@
-package Practica4;
-
 /*Realizado por:
     - Pérez Galindo Claudia
-    - 
+    -Zepeda Calalpa Carlos
 
-    Falta ver que no acepte valores negativos en los setters
 -----------------------------------
 Funcionamiento general
 
@@ -13,7 +10,7 @@ Funcionamiento general
 
 */
 
-public abstract class Persona {
+public abstract class Persona{
 
     // Declaracion de atributos ---------------------------------------------------------------
 
@@ -21,7 +18,7 @@ public abstract class Persona {
     protected String nombre;
     protected String correo;
 
-    
+
 
     // Declaracion de métodos -----------------------------------------------------------------
     public abstract void mostrarInformacion();
