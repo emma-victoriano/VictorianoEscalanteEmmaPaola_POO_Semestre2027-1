@@ -2,7 +2,7 @@
  * Perez Galindo Claudia
  * Carlos Zepeda Calalpa
  * Cuevas Angeles
- * Emma Paola Victoriano Escalante
+ * Victoriano Escalante Emma Paola
  *
  * Este programa funciona como un sistema interactivo para un puesto de chimichangas
  * Permite al usuario elegir opciones mediante un menu por consola
